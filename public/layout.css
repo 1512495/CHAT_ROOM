@@ -1,0 +1,5 @@
+body{background-color: pink}
+#left{width: 20%; float: left; min-height: 200px;background-color: #c7d5ed;}
+#right{width: 80%; float: right;min-height: 200px;background-color: #d2e2c5;}
+#roomHienTai{background-color: gray;float: right;width: 100px;color: white}
+#content{height: 180px; background-color: yellow;}

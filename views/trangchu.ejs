@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DeMo SOCKET IO</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="socket.io/socket.io.js"></script>
+	<script src="xuly.js"></script>
+	<link rel="stylesheet" type="text/css" href="layout.css">
+</head>
+<body>
+	<div>
+		<input type="text" id="txtRoom">
+		<input type="button" id="btnTaoRoom" value="Tạo Room">
+	</div>
+	
+
+	<div id="left">
+		<h3>Danh sach room</h3>
+		<div id="listRoom">
+			
+		</div>
+	</div>
+	<div id="right">
+		<h4 id="roomHienTai">...</h4>
+		<input type="text" id="txtChat">
+		<input type="button" id="btnChat" value="Chat">
+
+		<div id="content">
+			
+		</div>
+	</div>
+	
+
+</body>
+
+</html>
